@@ -1,0 +1,8 @@
+print("Добавление: 2 + 2 = {result}".format(result = 2 + 2))
+print("Вычитание: 2 - 2 = {result}".format(result = 2 - 2))
+print("Умножение: 2 * 2 = {result}".format(result = 2 * 2))
+print("Деление: 2 / 2 = {result}".format(result = int(2 / 2)))
+print("Модуль (нечетное значение): 3 % 2 = {result}".format(result = 3 % 2))
+print("Модуль (четное значение): 4 % 2 = {result}".format(result = 4 % 2))
+print("Степень: 2 ** 2 = {result}".format(result = 2 ** 2))
+print("Деление с остатком: 5 // 2 = {result}".format(result = 5 // 2))
