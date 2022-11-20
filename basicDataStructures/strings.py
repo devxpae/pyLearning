@@ -17,7 +17,7 @@ print("({valueA} != {valueB}): {result}".format(valueA = someStringA, valueB = s
 print("\n* — с объектами типа String (str) возможно производить те же операции, что и с объектами типа Numbers (int, float, ...).")
 
 print("\nИндексация строк:")
-print("Вывод 1 символ объекта someStringA: {result}". format(result = someStringA[0]))
-print("Вывод с 1 по 4 символ объекта someStringA: {result}". format(result = someStringA[0:4]))
-print("Вывод символов объекта someStringA через 1: {result}". format(result = someStringA[::2]))
-print("Вывод символов объекта someStringA в обратном порядке: {result}". format(result = someStringA[::-1]))
+print("Вывод 1 символ объекта someStringA: {result}"                    .format(result = someStringA[0]))
+print("Вывод с 1 по 4 символ объекта someStringA: {result}"             .format(result = someStringA[0:4]))
+print("Вывод символов объекта someStringA через 1: {result}"            .format(result = someStringA[::2]))
+print("Вывод символов объекта someStringA в обратном порядке: {result}" .format(result = someStringA[::-1]))
