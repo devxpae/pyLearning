@@ -1,5 +1,5 @@
-some_string_a = 'qwertyuiop'
-some_string_b = 'asdfghjkl'
+some_string_a = 'Qwertyuiop'
+some_string_b = 'Asdfghjkl'
 
 print('Название')
 print("Подходит для написания абзацев, большших фрагментов текста.")
@@ -25,3 +25,11 @@ print("Вывод символов объекта some_string_a в обратн�
 print("\nКодирование / Декодирование:")
 some_string_c = 'йцукен'.encode()
 print("Строка: {value}, была закодирована и декодирована (Кодировка: по умолчанию (UTF-8.)). Результат: {result}".format(value = some_string_c, result = some_string_c.decode()))
+
+print("\nМетоды строк:")
+print("Поиск в строке. Строка: {value_a}, искомое значение: e, результат: {result}"     .format(value_a = some_string_a, result = some_string_a.find('e')))
+print("Замена символа в строке. Строка: {value_a}, замена: e -> d, результат: {result}" .format(value_a = some_string_a, result = some_string_a.replace('e', 'd')))
+print("Смена регистра (нижний регистр). Строка: {value_a}, результат: {result}"         .format(value_a = some_string_a, result = some_string_a.lower()))
+print("Смена регистра (верхний регистр). Строка: {value_a}, результат: {result}"        .format(value_a = some_string_a, result = some_string_a.upper()))
+print("Проверяет все ли символы в строке буквы. Строка: {value_a}, результат: {result}" .format(value_a = some_string_a, result = some_string_a.isalpha()))
+print("Проверяет все ли символы в строке цифры. Строка: {value_a}, результат: {result}" .format(value_a = some_string_a, result = some_string_a.isnumeric()))
