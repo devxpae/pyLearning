@@ -21,3 +21,7 @@ print("Вывод 1 символ объекта someStringA: {result}"          
 print("Вывод с 1 по 4 символ объекта someStringA: {result}"             .format(result = someStringA[0:4]))
 print("Вывод символов объекта someStringA через 1: {result}"            .format(result = someStringA[::2]))
 print("Вывод символов объекта someStringA в обратном порядке: {result}" .format(result = someStringA[::-1]))
+
+print("\nКодирование / Декодирование:")
+some_string_c = 'йцукен'.encode()
+print("Строка: {value}, была закодирована и декодирована (Кодировка: по умолчанию (UTF-8.)). Результат: {result}".format(value = some_string_c, result = some_string_c.decode()))
