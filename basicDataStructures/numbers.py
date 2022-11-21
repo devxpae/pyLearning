@@ -36,5 +36,3 @@ print("({value_a} not in {list}): {result}"  .format(value_a = some_value_a, lis
 print("\nОператоры идентификации:")
 print("({value_a} is {value_b}): {result}"        .format(value_a = some_value_a, value_b = some_value_b, result = some_value_a is some_value_b))
 print("({value_a} is not {value_b}): {result}"    .format(value_a = some_value_a, value_b = some_value_b, result = some_value_a is not some_value_b))
-
-print("Пример: 2 + 2 =", 2 + 2)
