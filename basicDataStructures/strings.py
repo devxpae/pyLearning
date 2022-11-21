@@ -3,16 +3,16 @@ some_string_b = 'asdfghjkl'
 
 print('Название')
 print("Подходит для написания абзацев, большших фрагментов текста.")
-print("ООО {companyName} — №1 на рынке IT.".format(companyName = '"Название компании"'))
+print("ООО {company_name} — №1 на рынке IT.".format(company_name = '"Название компании"'))
 
 print("\nОператоры сравнения:")
-print("Длина объекта some_string_a — {valueA}, а some_string_b — {valueB}".format(valueA = len(some_string_a), valueB = len(some_string_b)))
-print("({valueA} > {valueB}): {result}" .format(valueA = some_string_a, valueB = some_string_b, result = some_string_a > some_string_b))
-print("({valueA} >= {valueB}): {result}".format(valueA = some_string_a, valueB = some_string_b, result = some_string_a >= some_string_b))
-print("({valueA} < {valueB}): {result}" .format(valueA = some_string_a, valueB = some_string_b, result = some_string_a < some_string_b))
-print("({valueA} <= {valueB}): {result}".format(valueA = some_string_a, valueB = some_string_b, result = some_string_a <= some_string_b))
-print("({valueA} == {valueB}): {result}".format(valueA = some_string_a, valueB = some_string_b, result = some_string_a == some_string_b))
-print("({valueA} != {valueB}): {result}".format(valueA = some_string_a, valueB = some_string_b, result = some_string_a != some_string_b))
+print("Длина объекта some_string_a — {value_a}, а some_string_b — {value_b}".format(value_a = len(some_string_a), value_b = len(some_string_b)))
+print("({value_a} > {value_b}): {result}" .format(value_a = some_string_a, value_b = some_string_b, result = some_string_a > some_string_b))
+print("({value_a} >= {value_b}): {result}".format(value_a = some_string_a, value_b = some_string_b, result = some_string_a >= some_string_b))
+print("({value_a} < {value_b}): {result}" .format(value_a = some_string_a, value_b = some_string_b, result = some_string_a < some_string_b))
+print("({value_a} <= {value_b}): {result}".format(value_a = some_string_a, value_b = some_string_b, result = some_string_a <= some_string_b))
+print("({value_a} == {value_b}): {result}".format(value_a = some_string_a, value_b = some_string_b, result = some_string_a == some_string_b))
+print("({value_a} != {value_b}): {result}".format(value_a = some_string_a, value_b = some_string_b, result = some_string_a != some_string_b))
 
 print("\n* — с объектами типа String (str) возможно производить те же операции, что и с объектами типа Numbers (int, float, ...).")
 
