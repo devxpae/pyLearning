@@ -21,5 +21,15 @@ del some_value[3:]
 print("Удаление элемента из списка (ячейки): {result}"                  .format(result = some_value))
 some_value.append([2, 0.2, 'Two'])
 print("Вывод одного элемента из списка ({value}): {result} "            .format(value = some_value, result = some_value[3][1]))
-some_value.extend(range(10))
-print("Добавление диапазона от 0 до 9: {result}"               .format(result = some_value))
+some_value.extend(range(10)) # range(0,10) range(0,10,2) range(10,0,-1)
+print("Добавление диапазона от 0 до 9: {result}"                        .format(result = some_value))
+
+print("\nДругие операции:")
+print("Количество элементов списка: {result}"   .format(result = len(some_value)))
+print("Количество 1 в списке: {result}"         .format(result = some_value.count(1)))
+del some_value[0:4]
+print("Минимальное значение в списке: {result}" .format(result = min(some_value)))
+print("Максимальное значение в списке: {result}".format(result = max(some_value)))
+some_value.extend(range(10,0,-1))
+some_value.sort()
+print("Отсортированный список: {result}"        .format(result = some_value))
