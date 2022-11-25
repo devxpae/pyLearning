@@ -21,3 +21,5 @@ del some_value[3:]
 print("Удаление элемента из списка (ячейки): {result}"                  .format(result = some_value))
 some_value.append([2, 0.2, 'Two'])
 print("Вывод одного элемента из списка ({value}): {result} "            .format(value = some_value, result = some_value[3][1]))
+some_value.extend(range(10))
+print("Добавление диапазона от 0 до 9: {result}"               .format(result = some_value))
