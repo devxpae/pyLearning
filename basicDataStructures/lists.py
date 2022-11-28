@@ -33,3 +33,7 @@ print("Максимальное значение в списке: {result}".form
 some_value.extend(range(10,0,-1))
 some_value.sort()
 print("Отсортированный список: {result}"        .format(result = some_value))
+some_value[0] = 666
+print("Меняем значение первого элемента: с 0 на 666: {result}"        .format(result = some_value))
+
+print("\n* — список является изменяемым объектом, в отлчичии от чисел и строк.")
